@@ -1,0 +1,30 @@
+#searchTerm {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#dropdownList {
+    position: relative;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+}
+
+#dropdownList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#dropdownList ul li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+#dropdownList ul li:hover {
+    background-color: #eee;
+}
